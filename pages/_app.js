@@ -1,9 +1,9 @@
 /** @format */
 
 import '../styles/globals.css';
+import Layout from '../components/Layout';
 import { DataProvider } from '../store/GlobalState';
 
-import Layout from '../component/Layout';
 function MyApp({ Component, pageProps }) {
 	return (
 		<DataProvider>

@@ -21,6 +21,28 @@ img {
 	object-fit: cover;
 	object-position: 0 30%;
 }
-
+#entete,
+#menu,
+#contenu,
+#footer {
+	padding: 1px 0;
+}
+#entete {
+	background-color: #ff9900;
+	text-align: center;
+}
+#main {
+	max-with: 960px;
+	margin: auto;
+}
+#menu {
+	float: left;
+	width: 240px;
+	background-color: #ff3366;
+}
+#contenu {
+	margin-left: 245px;
+	background-color: #9966ff;
+}
 /* ----------- Loading ------------- */
 @import url('./loading.css');
