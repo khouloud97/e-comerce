@@ -1,12 +1,16 @@
 /** @format */
 
 import '../styles/globals.css';
-import Layout from './component/Layout';
+import { DataProvider } from '../store/GlobalState';
+
+import Layout from '../component/Layout';
 function MyApp({ Component, pageProps }) {
 	return (
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		<DataProvider>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</DataProvider>
 	);
 }
 
