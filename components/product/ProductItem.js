@@ -14,7 +14,7 @@ const ProductItem = ({ product, handleCheck }) => {
 			<>
 				<Link href={`product/${product._id}`}>
 					<a className='btn btn-info' style={{ marginRight: '5px', flex: 1 }}>
-						View
+						Voir les detail
 					</a>
 				</Link>
 				<button
@@ -22,7 +22,7 @@ const ProductItem = ({ product, handleCheck }) => {
 					style={{ marginLeft: '5px', flex: 1 }}
 					disabled={product.inStock === 0 ? true : false}
 					onClick={() => dispatch(addToCart(product, cart))}>
-					Buy
+					Acheter
 				</button>
 			</>
 		);
@@ -33,7 +33,7 @@ const ProductItem = ({ product, handleCheck }) => {
 			<>
 				<Link href={`create/${product._id}`}>
 					<a className='btn btn-info' style={{ marginRight: '5px', flex: 1 }}>
-						Edit
+						Editer
 					</a>
 				</Link>
 				<button
