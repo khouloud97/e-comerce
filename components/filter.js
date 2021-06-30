@@ -61,8 +61,6 @@ const Filter = ({ state }) => {
 					value={sort}
 					onChange={handleSort}>
 					<option value='-createdAt'>Nouvauté</option>
-					<option value='oldest'>Oldest</option>
-					<option value='-sold'>meillieur vente</option>
 					<option value='-price'>prix _ bas</option>
 					<option value='price'>prix-haut</option>
 				</select>

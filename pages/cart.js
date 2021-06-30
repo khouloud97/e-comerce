@@ -121,7 +121,7 @@ const Cart = () => {
 			</Head>
 
 			<div className='col-md-8 text-secondary table-responsive my-3'>
-				<h2 className='text-uppercase'>List des Achat</h2>
+				<h2 className='text-uppercase'>Liste des produit</h2>
 
 				<table className='table my-3'>
 					<tbody>
@@ -139,7 +139,7 @@ const Cart = () => {
 
 			<div className='col-md-4 my-3 text-right text-uppercase text-secondary'>
 				<form>
-					<h2>EXPÉDITION</h2>
+					<h2> Livraison </h2>
 
 					<label htmlFor='address'>Addresse</label>
 					<input
@@ -151,7 +151,7 @@ const Cart = () => {
 						onChange={(e) => setAddress(e.target.value)}
 					/>
 
-					<label htmlFor='mobile'>Telephone</label>
+					<label htmlFor='mobile'> Telephone</label>
 					<input
 						type='text'
 						name='mobile'
@@ -167,8 +167,8 @@ const Cart = () => {
 				</h3>
 
 				<Link href={auth.user ? '#!' : '/signin'}>
-					<a className='btn btn-dark my-2' onClick={handlePayment}>
-						Procéder au paiement{' '}
+					<a class='btn-grad' onClick={handlePayment}>
+						payment
 					</a>
 				</Link>
 			</div>

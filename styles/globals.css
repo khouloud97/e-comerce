@@ -33,3 +33,30 @@ img {
 
 /* ----------- Products Manager ------------- */
 @import url('./products_manager.css');
+
+.btn-grad {
+	background-image: linear-gradient(
+		to right,
+		#2f7336 0%,
+		#aa3a38 51%,
+		#2f7336 100%
+	);
+}
+.btn-grad {
+	margin: 10px;
+	padding: 5px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+
+.btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
