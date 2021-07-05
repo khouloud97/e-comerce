@@ -20,7 +20,7 @@ export function Home(props) {
 							src='https://cdn.fbsbx.com/v/t59.2708-21/213373868_266181738598427_235720217718171552_n.gif?_nc_cat=110&ccb=1-3&_nc_sid=041f46&_nc_ohc=_U_z7iJ04WIAX9LjRnv&_nc_ht=cdn.fbsbx.com&oh=2246c8f85dd953a4ebff453194e1211b&oe=60E4D75C'
 							className='img shrink'
 							width='250px'
-							height='150px'
+							height='151px'
 						/>
 						<hr></hr>{' '}
 						<img
