@@ -6,31 +6,42 @@ export function Home(props) {
 	return (
 		<>
 			<br />
-			<div className='container-fluid border  '>
+			<div className='container-fluid    '>
 				<div className='row'>
-					<div className='col-md-4  lm-6 border '>
-						<img
-							src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/208105075_528634471520647_3560919924172748412_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=aee45a&_nc_ohc=f7gHxUsvkMkAX_zJh4B&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=bf93d65de97916626dfdb71bba2a42f5&oe=60E72E35'
-							className='img shrink'
-							width='450px'
-							height='350px'
-						/>
-						<hr className='hr'></hr>
-						<img
-							src='https://cdn.fbsbx.com/v/t59.2708-21/213024767_239973514351892_4286643390153826630_n.gif?_nc_cat=105&ccb=1-3&_nc_sid=041f46&_nc_ohc=kOOkZWxPSoEAX8c8ili&_nc_ht=cdn.fbsbx.com&oh=87be4982f0f32027f7cce7e4b623d79f&oe=60E46E15'
-							className='img shrink'
-							width='250px'
-							height='151px'
-						/>
-						<hr className='hr'></hr>{' '}
-						<img
-							src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/212681311_140486681491641_9083505627132837105_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=aee45a&_nc_ohc=9kq4WwtDWUIAX-7cBiL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=454ce91ae9f1c4654f8586e25a768481&oe=60E7CCAA'
-							className='img shrink'
-							width='450px'
-							height='350px'
-						/>
-					</div>
-					<div className='col-md-8 border '> </div>
+					{' '}
+					<div className='col-md-4 col-sm-4 '>
+						<table border='8' bordercolor='ff' className='tb'>
+							<tr className='tb'>
+								<img
+									src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/208105075_528634471520647_3560919924172748412_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=aee45a&_nc_ohc=f7gHxUsvkMkAX_zJh4B&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=bf93d65de97916626dfdb71bba2a42f5&oe=60E72E35'
+									className='img shrink'
+									width='450px'
+									height='350px'
+								/>
+							</tr>
+							<tr className='tb'>
+								<hr className='hr'></hr>
+								<img
+									src='https://cdn.fbsbx.com/v/t59.2708-21/213024767_239973514351892_4286643390153826630_n.gif?_nc_cat=105&ccb=1-3&_nc_sid=041f46&_nc_ohc=kOOkZWxPSoEAX8c8ili&_nc_ht=cdn.fbsbx.com&oh=87be4982f0f32027f7cce7e4b623d79f&oe=60E46E15'
+									className='img  '
+									width='250px'
+									height='151px'
+								/>
+							</tr>
+							<hr className='hr'></hr>
+
+							<tr className='tb'>
+								{' '}
+								<img
+									src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/212681311_140486681491641_9083505627132837105_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=aee45a&_nc_ohc=9kq4WwtDWUIAX-7cBiL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=454ce91ae9f1c4654f8586e25a768481&oe=60E7CCAA'
+									className='img shrink'
+									width='450px'
+									height='350px'
+								/>{' '}
+							</tr>
+						</table>{' '}
+					</div>{' '}
+					<div className='col-md-8  col-sm-10    '> </div>
 				</div>
 			</div>
 		</>
