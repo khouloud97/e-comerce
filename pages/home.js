@@ -15,14 +15,14 @@ export function Home(props) {
 							width='450px'
 							height='350px'
 						/>
-						<hr></hr>
+						<hr className='hr'></hr>
 						<img
-							src='https://cdn.fbsbx.com/v/t59.2708-21/213373868_266181738598427_235720217718171552_n.gif?_nc_cat=110&ccb=1-3&_nc_sid=041f46&_nc_ohc=_U_z7iJ04WIAX9LjRnv&_nc_ht=cdn.fbsbx.com&oh=2246c8f85dd953a4ebff453194e1211b&oe=60E4D75C'
+							src='https://cdn.fbsbx.com/v/t59.2708-21/213024767_239973514351892_4286643390153826630_n.gif?_nc_cat=105&ccb=1-3&_nc_sid=041f46&_nc_ohc=kOOkZWxPSoEAX8c8ili&_nc_ht=cdn.fbsbx.com&oh=87be4982f0f32027f7cce7e4b623d79f&oe=60E46E15'
 							className='img shrink'
 							width='250px'
 							height='151px'
 						/>
-						<hr></hr>{' '}
+						<hr className='hr'></hr>{' '}
 						<img
 							src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/212681311_140486681491641_9083505627132837105_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=aee45a&_nc_ohc=9kq4WwtDWUIAX-7cBiL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=454ce91ae9f1c4654f8586e25a768481&oe=60E7CCAA'
 							className='img shrink'

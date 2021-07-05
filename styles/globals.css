@@ -198,3 +198,8 @@ img {
 
 	background-repeat: no-repeat;
 }
+.hr {
+	background-color: rgb(14, 105, 29);
+	height: 3px;
+	border: none;
+}
