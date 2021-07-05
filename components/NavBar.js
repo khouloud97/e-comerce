@@ -101,26 +101,29 @@ function NavBar() {
 			<div className='collapse navbar-collapse' id='navbarNavDropdown'>
 				<ul className='navbar-nav'>
 					<li className='nav-item'>
-						<button type='button' class='btn-grad'>
+						<button type='button' class='btn-graddd'>
 							<a className='nav-link active' aria-current='page' href='/home'>
-								Service
+								<b>Service</b>
 							</a>{' '}
 						</button>
 					</li>
 					<li className='nav-item'>
-						<button type='button' class='btn-grad'>
-							<a className='nav-link active' aria-current='page' href='/home'>
-								Localisation{' '}
+						<button type='button' class='btn-graddd'>
+							<a
+								className='nav-link active'
+								aria-current='page'
+								href='/localisation'>
+								<b>Localisation </b>
 							</a>{' '}
 						</button>
 					</li>
 					<li className='nav-item'>
-						<button type='button' class='btn-grad'>
+						<button type='button' class='btn-graddd'>
 							<a
 								className='nav-link active'
 								aria-current='page'
 								href='/?search=all'>
-								Boutique{' '}
+								<b> Boutique </b>{' '}
 							</a>{' '}
 						</button>
 					</li>

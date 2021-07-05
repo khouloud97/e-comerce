@@ -4,21 +4,20 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import { DataContext } from '../../store/GlobalState';
 import { addToCart } from '../../store/Actions';
-
+import Home from '../../pages/home';
 const ProductItem = ({ product, handleCheck }) => {
 	const { state, dispatch } = useContext(DataContext);
 	const { cart, auth } = state;
-
 	const userLink = () => {
 		return (
 			<>
 				<Link href={`product/${product._id}`}>
-					<a className='btn btn-info' style={{ marginRight: '5px', flex: 1 }}>
+					<a className='btn-gradd' style={{ marginRight: '5px', flex: 1 }}>
 						Voir les detail
 					</a>
 				</Link>
 				<button
-					className='btn btn-success'
+					className='btn-gradd'
 					style={{ marginLeft: '5px', flex: 1 }}
 					disabled={product.inStock === 0 ? true : false}
 					onClick={() => dispatch(addToCart(product, cart))}>
@@ -72,7 +71,7 @@ const ProductItem = ({ product, handleCheck }) => {
 				/>
 			)}
 			<img
-				className='card-img-top'
+				className='card-img-top circle '
 				src={product.images[0].url}
 				alt={product.images[0].url}
 			/>

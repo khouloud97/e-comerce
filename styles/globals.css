@@ -7,7 +7,9 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+b {
+	color: rgba(56, 52, 52, 0.836);
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -44,7 +46,7 @@ img {
 }
 .btn-grad {
 	margin: 10px;
-	padding: 5px 20px;
+	padding: 15px 45px;
 	text-align: center;
 	text-transform: uppercase;
 	transition: 0.5s;
@@ -59,4 +61,140 @@ img {
 	background-position: right center; /* change the direction of the change here */
 	color: #fff;
 	text-decoration: none;
+}
+
+/** @format */
+
+.btn-gradd {
+	background-image: linear-gradient(
+		to right,
+		#993f3f38 0%,
+		#ffffff 51%,
+		#17412aa8 100%
+	);
+}
+.btn-gradd {
+	margin: 10px;
+	padding: 10px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 0 20px rgba(206, 198, 198, 0.274);
+	border-radius: 10px;
+	display: block;
+}
+
+.btn-gradd:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-gra {
+	background-image: linear-gradient(
+		to right,
+		#8e9eab 0%,
+		#eef2f3 51%,
+		#8e9eab 100%
+	);
+}
+.btn-gra {
+	margin: 10px;
+	padding: 15px 25px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
+}
+
+.btn-gra:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-graddd {
+	background-image: linear-gradient(
+		to right,
+		#993f3f38 0%,
+		#ffffff 51%,
+		#17412aa8 100%
+	);
+}
+.btn-graddd {
+	margin: 10px;
+	padding: 1px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);
+	box-shadow: 0 0 20px rgba(206, 198, 198, 0.274);
+	border-radius: 10px;
+	display: block;
+}
+
+.btn-graddd:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+.shrink:hover {
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.circle:hover {
+	border-radius: 50%;
+}
+
+.hh {
+	color: rgb(0, 0, 0);
+	margin-left: auto;
+	margin-right: auto;
+	background-origin: padding-box;
+	transition: all;
+}
+.bb {
+	background-color: antiquewhite;
+}
+.sidenav {
+	background-color: #f1f1f1;
+	height: 100%;
+}
+.bgg {
+	background-image: url('./imgg.jpg');
+	background-repeat: no-repeat;
+}
+.gg {
+	background-image: url('./OK.jpeg');
+	-webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+	filter: blur(1px);
+}
+.img {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.b {
+	background: rgba(214, 214, 214, 0.815);
+}
+/* Set the size of the div element that contains the map */
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+}
+.ok {
+	background-image: url('./OK.jpeg');
+
+	background-repeat: no-repeat;
 }
