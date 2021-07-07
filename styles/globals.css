@@ -207,3 +207,9 @@ img {
 .tb {
 	border-color: rgb(14, 105, 29);
 }
+.lo {
+	background-image: url('./sss.jpg');
+
+	background-repeat: no-repeat;
+	background-size: 200%;
+}
