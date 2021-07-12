@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useContext } from 'react';
 import { DataContext } from '../../store/GlobalState';
 import { addToCart } from '../../store/Actions';
-import Home from '../../pages/home';
 const ProductItem = ({ product, handleCheck }) => {
 	const { state, dispatch } = useContext(DataContext);
 	const { cart, auth } = state;

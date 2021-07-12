@@ -24,6 +24,9 @@ img {
 	object-position: 0 30%;
 }
 
+logo {
+	background-image: url(./logooo.png);
+}
 /* ----------- Loading ------------- */
 @import url('./loading.css');
 

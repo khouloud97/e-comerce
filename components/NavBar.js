@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { DataContext } from '../store/GlobalState';
 import Cookie from 'js-cookie';
-
+import { logooo } from '../styles/logooo.png';
 function NavBar() {
 	const router = useRouter();
 	const { state, dispatch } = useContext(DataContext);
@@ -53,7 +53,7 @@ function NavBar() {
 					data-toggle='dropdown'
 					aria-haspopup='true'
 					aria-expanded='false'>
-					<img
+					<image
 						src={auth.user.avatar}
 						alt={auth.user.avatar}
 						style={{
@@ -63,7 +63,7 @@ function NavBar() {
 							transform: 'translateY(-3px)',
 							marginRight: '3px',
 						}}
-					/>{' '}
+					/>
 					{auth.user.name}
 				</a>
 
@@ -85,8 +85,8 @@ function NavBar() {
 		<nav className='navbar navbar-expand-lg navbar-light bg-light'>
 			<a className='navbar-brand' href='/home'>
 				<img
-					src='https://scontent.xx.fbcdn.net/v/t1.15752-9/204333894_539616237206194_3765289483872452193_n.png?_nc_cat=102&ccb=1-3&_nc_sid=aee45a&_nc_ohc=6SSfYYxjmu4AX-BcMP9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=bb156eaa6a8b9f7929dfa2b6588b701f&oe=60D990E2'
-					width='180px'></img>
+					src='https://scontent.xx.fbcdn.net/v/t1.15752-9/204333894_539616237206194_3765289483872452193_n.png?_nc_cat=102&ccb=1-3&_nc_sid=aee45a&_nc_ohc=k1eOiRshq_YAX8TlfW_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1764ecfa55da3a23618fa1804bb54bed&oe=60ED5762'
+					width='200px'></img>
 			</a>{' '}
 			<button
 				className='navbar-toggler'
