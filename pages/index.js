@@ -1,6 +1,5 @@
 /** @format */
 
-import Head from 'next/head';
 import { useState, useContext, useEffect } from 'react';
 import { DataContext } from '../store/GlobalState';
 

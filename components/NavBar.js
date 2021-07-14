@@ -1,12 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-/**
- * /* eslint-disable jsx-a11y/alt-text
- *
- * @format
- */
-
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable @next/next/no-html-link-for-pages */
 /** @format */
 
 import React, { useContext } from 'react';
@@ -40,10 +31,10 @@ function NavBar() {
 		return (
 			<>
 				<Link href='/users'>
-					<a className='dropdown-item'>Users</a>
+					<a className='dropdown-item'>Utilisateur</a>
 				</Link>
 				<Link href='/create'>
-					<a className='dropdown-item'>Products</a>
+					<a className='dropdown-item'>Ajouter Produit</a>
 				</Link>
 				<Link href='/categories'>
 					<a className='dropdown-item'>Categories</a>
