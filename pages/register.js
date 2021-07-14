@@ -41,7 +41,7 @@ const Register = () => {
 
 	useEffect(() => {
 		if (Object.keys(auth).length !== 0) router.push('/');
-	}, [auth]);
+	}, [auth, router]);
 
 	return (
 		<div>
@@ -77,7 +77,7 @@ const Register = () => {
 						onChange={handleChangeInput}
 					/>
 					<small id='emailHelp' className='form-text text-muted'>
-						We'll never share your email with anyone else.
+						Well never share your email with anyone else.
 					</small>
 				</div>
 

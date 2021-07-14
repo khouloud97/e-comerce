@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /** @format */
 
 import Link from 'next/link';

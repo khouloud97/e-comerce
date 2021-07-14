@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /** @format */
 
 import Head from 'next/head';
@@ -58,7 +59,7 @@ const Cart = () => {
 
 			updateCart();
 		}
-	}, [callback]);
+	}, [callback, dispatch]);
 
 	const handlePayment = async () => {
 		if (!address || !mobile)
@@ -167,7 +168,7 @@ const Cart = () => {
 				</h3>
 
 				<Link href={auth.user ? '#!' : '/signin'}>
-					<a class='btn-grad' onClick={handlePayment}>
+					<a className='btn-grad' onClick={handlePayment}>
 						payment
 					</a>
 				</Link>

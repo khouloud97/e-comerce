@@ -4,11 +4,10 @@ import React from 'react';
 import Navbar from './NavBar';
 import Notify from './Notify';
 import Modal from './Modal';
-import Home from '../pages/home';
 export function Layout({ children }) {
 	return (
 		<div className='container-fluid'>
-			<div classNameName='container'>
+			<div className='container'>
 				<Navbar />
 				<Notify />
 				<Modal />

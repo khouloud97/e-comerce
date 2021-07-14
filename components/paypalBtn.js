@@ -6,14 +6,14 @@ import { DataContext } from '../store/GlobalState';
 import { updateItem } from '../store/Actions';
 
 const paypalBtn = ({ order }) => {
-	const refPaypalBtn = useRef();
-	const { state, dispatch } = useContext(DataContext);
+	const refPaypalBtn = UseRef();
+	const { state, dispatch } = UseContext(DataContext);
 	const { auth, orders } = state;
 
-	useEffect(() => {
+	UseEffect(() => {
 		paypal
 			.Buttons({
-				createOrder: function (data, actions) {
+				createOrder: function(data, actions) {
 					// This function sets up the details of the transaction, including the amount and line item details.
 					return actions.order.create({
 						purchase_units: [
@@ -25,11 +25,11 @@ const paypalBtn = ({ order }) => {
 						],
 					});
 				},
-				onApprove: function (data, actions) {
+				onApprove: function(data, actions) {
 					// This function captures the funds from the transaction.
 					dispatch({ type: 'NOTIFY', payload: { loading: true } });
 
-					return actions.order.capture().then(function (details) {
+					return actions.order.capture().then(function(details) {
 						patchData(
 							`order/payment/${order._id}`,
 							{
