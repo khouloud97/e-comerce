@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import filterSearch from '../utils/filterSearch';
+import { getData } from '../utils/fetchData';
 import { useRouter } from 'next/router';
 
 const Filter = ({ state }) => {
@@ -34,7 +35,7 @@ const Filter = ({ state }) => {
 					className='custom-select text-capitalize'
 					value={category}
 					onChange={handleCategory}>
-					<option value='all'>Tout les produit</option>
+					<option value='all'>All Products</option>
 
 					{categories.map((item) => (
 						<option key={item._id} value={item._id}>
@@ -59,9 +60,11 @@ const Filter = ({ state }) => {
 					className='custom-select text-capitalize'
 					value={sort}
 					onChange={handleSort}>
-					<option value='-createdAt'>Nouvauté</option>
-					<option value='-price'>prix _ bas</option>
-					<option value='price'>prix-haut</option>
+					<option value='-createdAt'>Newest</option>
+					<option value='oldest'>Oldest</option>
+					<option value='-sold'>Best sales</option>
+					<option value='-price'>Price: Hight-Low</option>
+					<option value='price'>Price: Low-Hight</option>
 				</select>
 			</div>
 		</div>
