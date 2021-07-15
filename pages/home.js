@@ -13,7 +13,7 @@ export function Home(props) {
 						<table border='10' bordercolor='ff' className='tb'>
 							<tr className='tb'>
 								<img
-									src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/208105075_528634471520647_3560919924172748412_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=aee45a&_nc_ohc=f7gHxUsvkMkAX_zJh4B&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=bf93d65de97916626dfdb71bba2a42f5&oe=60E72E35'
+									src='https://drive.google.com/file/d/13AtZlZKOBCdRK7uuviYm6UjkH6Mq9Bw-/view?usp=sharing'
 									className='img shrink'
 									width='450px'
 									height='350px'
@@ -21,7 +21,7 @@ export function Home(props) {
 							</tr>
 							<tr className='tb'>
 								<img
-									src='https://cdn.fbsbx.com/v/t59.2708-21/213024767_239973514351892_4286643390153826630_n.gif?_nc_cat=105&ccb=1-3&_nc_sid=041f46&_nc_ohc=kOOkZWxPSoEAX8c8ili&_nc_ht=cdn.fbsbx.com&oh=87be4982f0f32027f7cce7e4b623d79f&oe=60E46E15'
+									src='https://drive.google.com/file/d/1Jx4cxGyDMuRAmWKoWNpcepF3qHyH9rrG/view?usp=sharing'
 									className='img  '
 									width='250px'
 									height='151px'
@@ -31,7 +31,7 @@ export function Home(props) {
 							<tr className='tb'>
 								{' '}
 								<img
-									src='https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/212681311_140486681491641_9083505627132837105_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=aee45a&_nc_ohc=9kq4WwtDWUIAX-7cBiL&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=6&oh=454ce91ae9f1c4654f8586e25a768481&oe=60E7CCAA'
+									src=https://drive.google.com/file/d/1xSbGvkcAmcz_tlBzTMo7Ym2zubFkKF_r/view?usp=sharing'
 									className='img shrink'
 									width='450px'
 									height='350px'
