@@ -85,7 +85,7 @@ function NavBar() {
 		<nav className='navbar navbar-expand-lg navbar-light bg-light'>
 			<a className='navbar-brand' href='/home'>
 				<img
-					src='https://scontent.xx.fbcdn.net/v/t1.15752-9/204333894_539616237206194_3765289483872452193_n.png?_nc_cat=102&ccb=1-3&_nc_sid=aee45a&_nc_ohc=k1eOiRshq_YAX8TlfW_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1764ecfa55da3a23618fa1804bb54bed&oe=60ED5762'
+					src='https://res.cloudinary.com/msaken/image/upload/v1626384148/vvub21hc0p1epg9jtdpd.png'
 					width='200px'></img>
 			</a>{' '}
 			<button
