@@ -13,11 +13,7 @@ export function Home(props) {
 						<table border='10' bordercolor='ff' className='tb'>
 							<tr className='tb'>
 								<img
-<<<<<<< HEAD
 									src='https://res.cloudinary.com/msaken/image/upload/v1626384147/ysrvthucwm9sczbobbyj.jpg'
-=======
-									src='https://drive.google.com/file/d/13AtZlZKOBCdRK7uuviYm6UjkH6Mq9Bw-/view?usp=sharing'
->>>>>>> df22679a8c8b82218d4540b593238adc350c57f4
 									className='img shrink'
 									width='450px'
 									height='350px'
@@ -25,11 +21,7 @@ export function Home(props) {
 							</tr>
 							<tr className='tb'>
 								<img
-<<<<<<< HEAD
 									src='https://res.cloudinary.com/msaken/image/upload/v1626384186/ipvd7pwjfhz4nv15ui66.gif'
-=======
-									src='https://drive.google.com/file/d/1Jx4cxGyDMuRAmWKoWNpcepF3qHyH9rrG/view?usp=sharing'
->>>>>>> df22679a8c8b82218d4540b593238adc350c57f4
 									className='img  '
 									width='250px'
 									height='151px'
@@ -39,11 +31,7 @@ export function Home(props) {
 							<tr className='tb'>
 								{' '}
 								<img
-<<<<<<< HEAD
 									src='https://res.cloudinary.com/msaken/image/upload/v1626384125/lt1ydso214tyale7gld7.png'
-=======
-									src=https://drive.google.com/file/d/1xSbGvkcAmcz_tlBzTMo7Ym2zubFkKF_r/view?usp=sharing'
->>>>>>> df22679a8c8b82218d4540b593238adc350c57f4
 									className='img shrink'
 									width='450px'
 									height='350px'
