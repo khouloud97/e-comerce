@@ -6,11 +6,11 @@ import { DataContext } from '../store/GlobalState';
 import { updateItem } from '../store/Actions';
 
 const paypalBtn = ({ order }) => {
-	const refPaypalBtn = UseRef();
-	const { state, dispatch } = UseContext(DataContext);
+	const refPaypalBtn = useRef();
+	const { state, dispatch } = useContext(DataContext);
 	const { auth, orders } = state;
 
-	UseEffect(() => {
+	useEffect(() => {
 		paypal
 			.Buttons({
 				createOrder: function(data, actions) {

@@ -1,4 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
+/**
+ * /* eslint-disable @next/next/no-img-element
+ *
+ * @format
+ */
+
 /** @format */
 
 import Link from 'next/link';
@@ -133,6 +138,12 @@ const OrderDetail = ({ orderDetail, state, dispatch }) => {
 						<div className='p-4'>
 							<h2 className='mb-4 text-uppercase'>Total: ${order.total}</h2>
 							<PaypalBtn order={order} />
+							<Link href='/?search=all'>
+								<button className='btn-gra hh'>
+									{' '}
+									Payement a la livraison{' '}
+								</button>
+							</Link>{' '}
 						</div>
 					)}
 				</div>
