@@ -82,7 +82,7 @@ function NavBar() {
 	};
 
 	return (
-		<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+		<nav className='navbar navbar-expand-lg navbar-light bg-light '>
 			<a className='navbar-brand' href='/home'>
 				<img
 					src='https://res.cloudinary.com/msaken/image/upload/v1626384148/vvub21hc0p1epg9jtdpd.png'
