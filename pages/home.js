@@ -40,8 +40,9 @@ export function Home(props) {
 							</tr>
 						</table>{' '}
 					</div>{' '}
-				</div>
-				<footer className='foot'>
+				</div>{' '}
+				<br /> <br />
+				<footer className='fotter foot'>
 					<br />
 					<div className='container'>
 						<div className='row'>
