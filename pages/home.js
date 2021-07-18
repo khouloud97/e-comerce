@@ -42,11 +42,9 @@ export function Home(props) {
 						</table>{' '}
 					</div>{' '}
 					<div className='col-md-3 '>
-						<img
-							classNAme='hh'
-							src='https://res.cloudinary.com/msaken/image/upload/v1626600078/gtio5hkshllbc5kzqoo6.png'
-							width='400px'
-						/>{' '}
+						<marquee behavior='scroll'>
+							<h3 className='u'>Bienvenue à ONTOCONSTRUCTION</h3>
+						</marquee>
 					</div>
 				</div>{' '}
 				<br /> <br />
