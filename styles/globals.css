@@ -362,7 +362,10 @@ logo {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: red;
-	color: white;
+	background-color: rgba(184, 174, 174, 0.295);
+	color: rgb(0, 0, 0);
 	text-align: center;
+}
+.up {
+	background-color: rgba(184, 174, 174, 0.295);
 }

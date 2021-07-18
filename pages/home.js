@@ -6,6 +6,10 @@ export function Home(props) {
 	return (
 		<>
 			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 
 			<div className='container-fluid'>
 				<div className='row'>
@@ -40,9 +44,16 @@ export function Home(props) {
 							</tr>
 						</table>{' '}
 					</div>{' '}
+					<div className='col-md-3 '>
+						<img
+							classNAme='hh'
+							src='https://res.cloudinary.com/msaken/image/upload/v1626600078/gtio5hkshllbc5kzqoo6.png'
+							width='400px'
+						/>{' '}
+					</div>
 				</div>{' '}
 				<br /> <br />
-				<footer className='fotter foot'>
+				<footer className='footer'>
 					<br />
 					<div className='container'>
 						<div className='row'>
