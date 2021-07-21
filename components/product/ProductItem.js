@@ -20,8 +20,7 @@ const ProductItem = ({ product, handleCheck }) => {
 					style={{ marginLeft: '5px', flex: 1 }}
 					disabled={product.inStock === 0 ? true : false}
 					onClick={() => dispatch(addToCart(product, cart))}>
-					Acheter
-				</button>
+Ajouter aux panier				</button>
 			</>
 		);
 	};

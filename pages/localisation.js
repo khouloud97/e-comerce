@@ -27,8 +27,10 @@ export function Localisation(props) {
 		<>
 			{' '}
 			<br />
-			<br />
-			<br />
+			<marquee behavior='scroll'>
+				<h3 className='u'> Localisation</h3>
+			</marquee>{' '}
+
 			<br />
 			<div className='lo'>
 				<div className='container  '>
