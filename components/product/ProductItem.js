@@ -20,7 +20,8 @@ const ProductItem = ({ product, handleCheck }) => {
 					style={{ marginLeft: '5px', flex: 1 }}
 					disabled={product.inStock === 0 ? true : false}
 					onClick={() => dispatch(addToCart(product, cart))}>
-Ajouter aux panier				</button>
+					<i class='fas fa-shopping-basket'>Ajouter aux panier</i>
+				</button>
 			</>
 		);
 	};
@@ -51,7 +52,7 @@ Ajouter aux panier				</button>
 							],
 						})
 					}>
-					Delete
+					Supprimer{' '}
 				</button>
 			</>
 		);
