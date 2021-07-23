@@ -102,7 +102,10 @@ function NavBar() {
 				<ul className='navbar-nav'>
 					<li className='nav-item'>
 						<button type='button' className='btn-graddd'>
-							<a className='nav-link active' aria-current='page' href='/home'>
+							<a
+								className='nav-link active'
+								aria-current='page'
+								href='/service'>
 								<b>Service</b>
 							</a>{' '}
 						</button>

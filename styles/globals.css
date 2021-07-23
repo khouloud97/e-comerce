@@ -38,7 +38,6 @@ logo {
 
 /* ----------- Products Manager ------------- */
 @import url('./products_manager.css');
-
 .btn-grad {
 	background-image: linear-gradient(
 		to right,
@@ -317,4 +316,18 @@ logo {
 }
 .up {
 	background-color: rgba(184, 174, 174, 0.295);
+}
+.onto {
+	background-image: url('https://res.cloudinary.com/msaken/image/upload/v1626965952/iappl9mbnz5mrgqukjvz.jpg');
+	background-repeat: no-repeat;
+}
+.isar {
+	width: 80%;
+	height: 300px;
+	border-radius: 21px 21px 0 0;
+}
+.imin {
+	width: 80%;
+	height: 300px;
+	border-radius: 21px 21px 0 0;
 }
