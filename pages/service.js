@@ -18,7 +18,10 @@ export function Service(props) {
 				</div>
 			</div>
 			<br />
-			<br />
+			<br />{' '}
+			<marquee behavior='scroll'>
+				<h3 className='u'> Nos Services </h3>
+			</marquee>
 			<div class='row'>
 				<div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>
 					<img
@@ -77,6 +80,30 @@ export function Service(props) {
 			<br />
 			<br />
 			<br />
+			<footer className='footer'>
+				<br />
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-8 col-sm-6 col-xs-12'>
+							<p className='copyright-text'>
+								ONTOCONSTRUCTION sarl — Villeneuve l abbe — 63720 SAINT IGNAT—
+								FRANCE
+								<br />
+								No SIRET : xxxx <br /> No TVA Intracommunautaire : xxxx
+								<br />
+								E-mail : c.renard@ontonomia.com
+								<br />
+								Tél :
+								<img
+									width='50px'
+									height='50px'
+									src='https://www.unitag.io/qreator/generate?crs=Ppv8rOENN3V1lAwTz82zPpEYgrTpeQPpAxSJGcmyf1zqoOPAufHCjI4ccbj8leQIffpWitL50YSc%252FcPVAqhvQcY8L%252ByEXXE2GKn8SsxpZk4WZaQp7PKE7yfTgH2P3e9CKW00WL5%252F1cMS7FElOQtZuX8mpOG0vfXH1R11ooGrRdY%253D&crd=74OG4hDsh%252FbuMj9nb9e0j2LPG7FlY2v4PIoeEgXfbQTijpG9F8M0ZcV0yE%252F65%252BoP7x%252FXBLk0TalLHJ8QAKKzgg%253D%253D'
+								/>{' '}
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</>
 	);
 }
