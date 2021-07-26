@@ -20,7 +20,7 @@ export function Service(props) {
 			<br />
 			<br />{' '}
 			<marquee behavior='scroll'>
-				<h3 className='u'> Nos Services </h3>
+				<h3 className='u'> Nos Réalisations </h3>
 			</marquee>
 			<div class='row'>
 				<div class='col-lg-4 col-md-12 mb-4 mb-lg-0'>
