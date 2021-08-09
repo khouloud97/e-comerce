@@ -303,14 +303,14 @@ logo {
 	}
 }
 .foot {
-	background-color: rgba(238, 238, 250, 1.994);
+	background-color: rgba(238, 238, 238, 0.994);
 }
 .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(184, 174, 254, 1.295);
+	background-color: rgba(184, 174, 154, 0.295);
 	color: rgb(0, 0, 0);
 	text-align: center;
 }
