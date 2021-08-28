@@ -306,8 +306,7 @@ logo {
 	background-color: rgba(238, 238, 238, 0.994);
 }
 .footer {
-	position: fixed;
-	left: 0;
+ 	left: 0;
 	bottom: 0;
 	width: 100%;
 	background-color: rgba(184, 174, 154, 0.295);
