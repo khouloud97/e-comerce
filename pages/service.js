@@ -92,9 +92,7 @@ export function Service(props) {
 								No SIRET : xxxx <br /> No TVA Intracommunautaire : xxxx
 								<br />
 								E-mail : c.renard@ontonomia.com
-								<br /> développé par
-									<br />
-								E-mail :khouloudachour.97@gmail.com
+								<br /> développé par :											E-mail :khouloudachour.97@gmail.com
 								<br />
 								Tél :
 								<img
