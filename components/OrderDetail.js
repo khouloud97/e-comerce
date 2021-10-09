@@ -137,7 +137,7 @@ const OrderDetail = ({ orderDetail, state, dispatch }) => {
 					{!order.paid && auth.user.role !== 'admin' && (
 						<div className='p-4'>
 							<h2 className='mb-4 text-uppercase'>Total: ${order.total}</h2>
-							<PaypalBtn order={order} />
+							//<PaypalBtn order={order} />
 							<Link href='/?search=all'>
 								<button className='btn-gra hh'>
 									{' '}
