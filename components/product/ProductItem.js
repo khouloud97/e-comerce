@@ -15,7 +15,7 @@ const ProductItem = ({ product, handleCheck }) => {
 						Voir les detail
 					</a>
 				</Link>
-				<button  hidden
+				<button   
 					className='btn-gradd'
 					style={{ marginLeft: '5px', flex: 1 }}
 					disabled={product.inStock === 0 ? true : false}
